@@ -37,3 +37,14 @@ footer{
     background-color: rgb(193, 218, 211);
     padding: 10px;
 }
+
+@media (max-width: 1000px){
+    nav {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        background-color: #9fc2c9;
+        height: 9vh;
+        border-bottom: #95c7d0;
+    
+    }
