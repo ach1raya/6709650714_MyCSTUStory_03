@@ -47,14 +47,15 @@ footer{
     padding: 10px;
 }
 
-@media (max-width: 1000px){
+@media screen and (max-width: 768px){
+
     nav {
         width: 100%;
-        flex-direction: column;
+        flex-direction:column;
         text-align: center;
         background-color: #9fc2c9;
-        height: 9vh;
-        border-bottom: #95c7d0;
+        height: 10vh;
     
     }
 
+}
